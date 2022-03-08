@@ -1,0 +1,15 @@
+@font-face {font-family: url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+src: url();
+}
+body {font-size: 15px;
+line-height: 20px;
+font-family: Libre+Baskerville;
+margin: 0 20% 0 20px;}
+.child {box-sizing: border-box;
+width: 150px; height: 50px;
+
+display: inline-block;}
+.parents {box-sizing: border-box;}
+span {background-color: gold;}
+h3 {margin: 0; }
+ ol {padding-left: 20px;}
