@@ -1,0 +1,23 @@
+
+caption {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+td,
+th {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+td {
+    text-align: left;
+}
+
+table { table-layout: fixed;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+

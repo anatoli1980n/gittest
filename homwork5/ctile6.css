@@ -1,0 +1,32 @@
+
+
+body {width: 900px;
+margin: 0px auto;
+font-size: 20px;
+font-weight: 400;
+}
+
+ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+ }
+
+ li { display: inline-block;
+}
+ a {
+  color: black;  
+padding: 0px 30px;
+height: 50px;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 50px;
+background: url(../homwork5/Home-512.jpg) 0px 0px /19% no-repeat; 
+
+}
+li::after {content: '|';
+width: 50px;
+font-weight: bold;
+}
+ul li a:hover {background: rgb(201, 201, 231);}

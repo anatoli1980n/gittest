@@ -1,0 +1,64 @@
+
+body {padding: 20px;}
+div {font-family: Arial, Helvetica, sans-serif;}
+
+.pearens {max-width: 800px; margin: 0px auto;
+height: 300px; background-color: rgb(92, 207, 154);
+border-radius: 20px 20px 0px 0px ;}
+
+.block {
+     border-radius: 20px 20px 0px 0px;
+    max-width: 800px;
+    margin: 0px auto;
+    height: 50px;
+    padding-top: 20px  ;background-color: rgb(92, 207, 154);
+    }
+.block_1 {
+font-size: 20px; display: inline-block;
+margin: 0px; width: 24%;}
+.block_2 {
+width: 24%; font-size: 20px; display: inline-block;}
+.block_3 {
+width: 24%; font-size: 20px; display: inline-block;}
+.block_4 {
+width: 24%; font-size: 20px; display: inline-block;}
+.block p {margin: 0px; padding-left: 20px; font-weight: 700;
+color: white;}
+
+.on { border: 1px solid rgb(231, 228, 228);
+   border-bottom: 1px solid rgb(209, 207, 207);
+   max-width: 800px;
+   margin: 0px auto;
+   height: 50px;
+   padding-top: 20px  ;background-color: white;
+   }
+.on_1 {
+font-size: 20px; display: inline-block;
+margin: 0px; width: 24%;}
+.on_2 {
+width: 24%; font-size: 20px; display: inline-block;}
+.on_3 {
+width: 24%; font-size: 20px; display: inline-block;}
+.on_4 {
+width: 24%; font-size: 20px; display: inline-block;}
+.on p {margin: 0px; padding-left: 20px; font-weight: 400;
+}
+.two { border: 1px solid rgb(231, 228, 228);
+    border-bottom: 1px solid rgb(209, 207, 207);
+    max-width: 800px;
+    margin: 0px auto;
+    height: 50px;
+    padding-top: 20px  ;background-color: white;
+    }
+ .two_1 {
+ font-size: 20px; display: inline-block;
+ margin: 0px; width: 24%;}
+ .two_2 {
+ width: 24%; font-size: 20px; display: inline-block;}
+ .two_3 {
+ width: 24%; font-size: 20px; display: inline-block;}
+ .two_4 {
+ width: 24%; font-size: 20px; display: inline-block;}
+ .two p {margin: 0px; padding-left: 20px; font-weight: 700;
+    color: rgb(92, 207, 154);
+ }

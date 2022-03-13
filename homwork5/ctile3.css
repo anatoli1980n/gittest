@@ -1,0 +1,5 @@
+table {border: 1px solid rgb(122, 119, 119);}
+caption {text-align: left; padding-bottom: 20px;}
+th, td {border: 1px solid black;
+padding: 5px 30px;}
+.tb { width: 100%; height: 100%; margin: 0px;}
