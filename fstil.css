@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  
+ background: rgb(240, 243, 242);
+;
+
+}
+header {
+  flex-grow: 1;
+    background: rgb(99, 208, 216);
+}
+main {background: rgb(66, 161, 2);
+display: flex;
+}
+
+body main aside nav  ul{background: rgb(12, 170, 12);
+flex-basis: 40%;}
+article {background: rgb(189, 119, 79);}
+img {background: rgb(185, 91, 189);}
+body footer {background: rgb(200, 202, 91);
+display: flex; 
+
+
+}
+footer nav ul {
+    
+   flex-shrink: 3; 
+}
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: center;
+}
