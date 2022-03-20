@@ -1,9 +1,0 @@
-table, td, th {border: 2px solid rgb(97, 94, 94); 
-text-align: center; padding: 5px 20px;}
-table {border-collapse: collapse;
-}
-caption {font-family: 'Times New Roman', Times, serif;
-font-size: 35px; font-weight: 500;}
-th {font-style: italic; font-weight: 700;
-font-size: 20px; padding: 5px 30px;}
-

@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 200px;
+    background: rgb(238, 235, 235);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 150px;
+    height: 300px;
+    padding: 0px 5px 5px 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    box-shadow: 5px 5px 2px rgb(228, 226, 226),
+    -5px 5px 2px rgb(228, 226, 226);
+
+}
+.imege {
+  display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;}
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+  
+    margin: 0px 0px;
+    list-style-type: none;
+    
+}
+.fer {
+    max-width: 60px;
+    background: rgb(104, 214, 214);
+    color: white;
+    padding: 5px 2px ;
+    margin: 0px;
+}
+.tu {
+    max-width: 60px;
+background: black;
+color: white;
+padding: 5px 2px;
+
+}
+.name {
+    padding: 5px 0px;
+    margin: 0px 0px;
+    color: rgb(104, 214, 214);
+    font-weight: 700;
+}
+.txt {
+  
+    margin: 0px 0px;
+    
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   padding: 5px 0px;
+    margin: 0px 0px; 
+    color: rgb(104, 214, 214); 
+  
+}
+.stars span:before {
+	content: '★';
+
+}
+
+.starbl {color: rgb(166, 172, 172);
+    }
+p {
+font-size: 10px;
+color:  rgb(166, 172, 172);
+
+padding-left: 15px;}
