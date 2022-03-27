@@ -1,0 +1,81 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    background:rgb(247, 241, 230);
+}
+h1 {
+    text-align: center;
+}
+
+form { display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border-top: 5px solid rgb(228, 174, 58);
+    padding-left: 50px;
+    box-shadow: 0 0  1px rgb(104, 104, 103);
+    background: white;
+
+}
+.two {
+    display: flex;
+    flex-direction: row;
+
+}
+.chek {
+    display: flex;
+    flex-direction: column;
+}
+form > div {
+    margin: 10px 0;
+
+}
+span {
+    border: 1px solid rgb(109, 108, 108);
+    margin-right: -1px;
+    width: 20px;
+    height: 20px;
+    padding: 5px 5px 6px 5px;
+    color: black;
+  
+}
+button {
+    border: none;
+    height: 40px;
+    width: 88%;
+    background: rgb(228, 174, 58);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:focus {background: blue;}
+button:hover {background: blue;}
+.good {
+    height: 24px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    width: 80%;
+    
+}
+
+.ggg {
+    margin-right: 27px;
+}
+select {
+    padding: 8px;
+    width: 87.4%;
+}
+.chek1 {
+    margin-bottom: 20px;
+}
+.chek2 {
+    margin-bottom: 10px;
+}
+.two span {
+    padding-right: 1px;
+}

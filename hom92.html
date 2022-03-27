@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stil92.css">
+</head>
+
+<body>
+    <form action="#" method="get">
+        <div class="forma">
+            <div class="block">
+                <label for="username"><span>Ваше имя:</span></label>
+                <input type="text" id="username" class="input">
+            </div>
+            <div class="block">
+                <label for="pas"><span>Пароль:</span></label>
+                <input type="password" id="pas" class="input">
+            </div>
+            <div class="block"> <span>Пол:</span>
+                <div class="inp">
+                    <label for="sexm">мужской</label>
+                    <input type="radio" name="gender" value="мужской" id="sexm">
+                    <label for="sexw">женский</label>
+                    <input type="radio" name="gender" value="женский" id="sexw" checked>
+                </div>
+            </div>
+            <div class="block"> <span>Ваши увлечения:</span>
+                <div class="inp">
+                    <label for="muzic">Музыка</label>
+                    <input type="checkbox" name="hobbi" id="muzic">
+                    <label for="video">Видео</label>
+                    <input type="checkbox" name="hobbi" id="video" checked>
+                    <label for="draw">Рисование</label>
+                    <input type="checkbox" name="hobbi" id="draw">
+                </div>
+            </div>
+            <div class="block"> <span>Ваш город:</span>
+                <div class="inp">
+                    <select name="taun" autofocus>
+                        <option value="Нижний Тагил">Нижний Тагил</option>
+                        <option value="Москва">Москва</option>
+                        <option value="Минск">Минск</option>
+                        <option value="Брест">Брест</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block">
+
+                <label for="story"><span>Кратко о себе:</span></label>
+                <div class="inp">
+                    <textarea name="story" id="story" cols="20" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="block"><span>Аватар:</span>
+                <div class="inp">
+                    <label for="avatar"></label>
+                    <input type="file" id="avatar">
+                </div>
+            </div>
+            <div class="buttons">
+                <span><button type="reset">Сброс</button></span>
+                <span><button type="submit">Подтверждаю</button></span>
+                <span><button type="button">Кликните по мне просто так</button></span>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>

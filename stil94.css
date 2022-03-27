@@ -1,0 +1,55 @@
+
+form {
+    color: gray;
+    width: 600px;
+    background: rgb(247, 242, 236);
+    padding: 20px;
+    font-family: sans-serif;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.titl {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(150, 148, 148);
+}
+.forms > div {
+    
+    margin-bottom: 10px;
+}
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.two > div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.titl, .txt {
+    margin-bottom: 20px;
+}
+input {
+    height: 30px;
+}
+button {
+    width: 120px;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    background: rgb(54, 167, 219);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+button:focus, button:hover {
+    background: red;
+}

@@ -1,0 +1,37 @@
+
+
+body {
+    counter-reset: section;
+}
+span::before {
+ content: counter(section) ". " ;
+    counter-increment: section;
+   
+}
+
+.forma {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.inp {
+    width: 300px;
+}
+.input {
+    width: 292px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
