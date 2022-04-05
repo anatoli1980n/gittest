@@ -1,0 +1,60 @@
+.container {
+    color: white;  
+    text-transform: uppercase; 
+    font-weight: 700;
+    font-size: 30px;
+    
+  
+    display: grid;
+    grid-template-columns:1fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+    
+   }
+   header, nav, .hero, main, .banner, .extra, .image {
+    display: flex;
+       flex-direction: row;
+       justify-content: center; 
+       align-items: center;   
+   }
+   header {
+      
+   background: black;
+   padding: 20px;
+   grid-column: 1/4;
+   grid-row: 1/2;
+  
+
+   }
+   nav {
+       background: red;
+       padding: 20px;
+       grid-column: 1/2;
+       grid-row: 3/6;
+   }
+   .hero {
+       background: rgb(53, 53, 182);
+       padding: 20px;
+       grid-column: 1/4;
+       grid-row: 2/3;
+
+   }
+   main {
+       background: rgb(26, 23, 23);
+       padding: 20px;
+       grid-column: 2/4;
+       grid-row: 3/4;
+   }
+   .banner {
+       background: rgb(190, 174, 29);
+       padding: 20px;
+       grid-column: 2/4;
+       grid-row: 4/5;
+   }
+   .extra {
+       background: rgb(42, 116, 23);
+       padding: 20px;
+   }
+   .image {
+       background: rgb(117, 192, 182);
+       padding: 20px;
+   }

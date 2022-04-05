@@ -1,0 +1,41 @@
+
+.container {
+ color: white;  
+ text-transform: uppercase; 
+ font-weight: 700;
+ font-size: 30px;
+
+ display: grid;
+ grid-template-columns:[start] 400px [end];
+ grid-template-rows: repeat(7, auto);
+ justify-content: space-evenly;
+ text-align: center;
+}
+header {
+background: black;
+padding: 20px;
+}
+nav {
+    background: red;
+    padding: 20px;
+}
+.hero {
+    background: rgb(53, 53, 182);
+    padding: 20px;
+}
+main {
+    background: rgb(26, 23, 23);
+    padding: 20px;
+}
+.banner {
+    background: rgb(190, 174, 29);
+    padding: 20px;
+}
+.extra {
+    background: rgb(42, 116, 23);
+    padding: 20px;
+}
+.image {
+    background: rgb(117, 192, 182);
+    padding: 20px;
+}
