@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+.element1 {
+    background: #959595;
+   height: 896px;
+    width: 1440px;
+    margin-bottom: 300px;
+    
+}
+.header {
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 123px; 
+    margin-bottom: 100px;   
+}
+.nav-header ul {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+color: white;
+font-family: Poppins;
+font-size: 16px;
+}
+.nav-header li {
+    padding: 0px 17px;
+}
+.burger {
+    font-size: 45px;
+    font-weight: 900;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 477px;
+    width: 1226px;
+}
+.section1 {
+display: flex;
+flex-direction: column;
+}
+.text-sec1 {
+    font-size: 17px;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.boldtext-sec1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.lighttext-sec1 {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 26px;
+}
+.bottom-sec1 {
+    height: 73px;
+    width: 198px;
+    background: #757575;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom-sec1 a {
+    color: white;
+    text-decoration: none;
+}
+/* ---- длинная страница---*/
+.pagelong {
+    width: 1440px;
+    position: relative;
+}
+.head-long {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    top: -396px;
+    right: 79px;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 130px;
+    
+}
+.desk-left {
+    width: 655px;
+    height: 725px;
+    background: #C4C4C4;
+    margin-left: 50px;
+}
+.desk-right {
+    width: 655px;
+}
+.desk-text-top {
+    font-size: 17px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-bottom: 15px; 
+    color: #757575;  
+    margin-top: 15px;
+}
+.desk-text-centr {
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.desk-text-boot {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.desk-check {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.desk-check ul {
+    list-style-type: none;
+    margin-left: 30px;
+    width: 313px;
+}
+.desk-check svg {
+    fill: #757575;
+    padding-right: 10px;
+}
+.desk-check li {
+ font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;   
+}
+
+.sec2-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sec2-foot-num {
+    font-size: 45px;
+    font-weight: 900;
+    color: #757575;
+    text-align: center;
+}
+.sec2-foot-text {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.sec3-block {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 100px;
+}
+.sec3-heder-titl1 {
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    color: #757575;
+
+}
+.sec3-heder-titl2 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 64px;
+    margin-left: 50px;
+}
+.slyder {
+    width: 1440px;
+    height: 252px;
+}
+.slyder span {
+    width: 313px;
+    height: 252px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #C4C4C4;
+    ;
+}

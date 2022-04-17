@@ -1,0 +1,16 @@
+
+#bbbb {padding-left: 1.5rem;}
+.row h2 {
+    padding-left: 0.5rem;
+} 
+#aaaa p::before {
+content: 'Ⓒ';
+color: black;
+
+}
+#aaaa {  
+    font-size: 10px;
+}
+#aaaa p {
+margin-bottom: 0;    
+}
